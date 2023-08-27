@@ -1,0 +1,15 @@
+questão 02 - Resposta:
+A) Todas as instâncias de classe podem ser inicializadas corretamente.
+
+Questão 3 - Resposta:
+A - FALSO
+B - VERDADEIRO
+C - FALSO
+D - FALSO
+E - FALSO
+
+Questão 4 - Resposta: 
+C) Um objeto é uma entidade que possui um estado e um conjunto definido de operações definidas para funcionar nesse estado
+
+Questão 5 - Resposta:
+B) as classes podem ser potencialmente reutilizáveis.
