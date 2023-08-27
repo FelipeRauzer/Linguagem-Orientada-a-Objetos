@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T18:56:59.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0 (Edition std-1)" version="21.6.9" etag="TaYqvBrBeTHrMEPd5Tqs" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-27T19:42:46.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0 (Edition std-1)" etag="t1cSOGFvQGdSiwCnO1vM" version="21.6.9" type="github">
   <diagram name="Página-1" id="j0xdGKVqzURvQlumUWY2">
-    <mxGraphModel>
+    <mxGraphModel dx="1009" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y7AVj56pbz7tbVNvklut-5" value="Pessoa&lt;br&gt;&amp;lt;Abstract Class&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="140" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="y7AVj56pbz7tbVNvklut-6" value="-codigo: int&lt;br&gt;-nome: string&lt;br&gt;-endereco: string&lt;br&gt;-telefone: string&lt;br&gt;-dataNascimento: data&lt;br&gt;-rg: string&lt;br&gt;-cpf: string&lt;br&gt;-dataInsercao: data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVj56pbz7tbVNvklut-5">
+          <mxGeometry y="40" width="140" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="y7AVj56pbz7tbVNvklut-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="y7AVj56pbz7tbVNvklut-5">
+          <mxGeometry y="164" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="y7AVj56pbz7tbVNvklut-8" value="+ pessoa(int, string, string, string, data, string, string, data)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVj56pbz7tbVNvklut-5">
+          <mxGeometry y="172" width="140" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
