@@ -2,7 +2,7 @@ package uniderp.loo.escola.dominio;
 
 import java.time.LocalDate;
 
-public class BaseDados extends BaseIdentificador {
+public abstract class BaseDados extends BaseIdentificador {
     protected String nome;  
     protected String endereco;
     protected String teleefone;
